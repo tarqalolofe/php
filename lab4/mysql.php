@@ -6,7 +6,7 @@ $username = 'root';         // اسم المستخدم
 $password = '';             // كلمة المرور
 
 
-//
+///
 /*$conn =new mysqli($host, $dbname, $username, $password);
 if ($conn->connect_error) {
 die("فشل الاتصال بقاعدة البيانات" . $conn->connect_error);
