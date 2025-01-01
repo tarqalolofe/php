@@ -5,6 +5,15 @@ $dbname = 'test';        // اسم قاعدة البيانات
 $username = 'root';         // اسم المستخدم
 $password = '';             // كلمة المرور
 
+
+//
+/*$conn =new mysqli($host, $dbname, $username, $password);
+if ($conn->connect_error) {
+die("فشل الاتصال بقاعدة البيانات" . $conn->connect_error);
+echo "تم الاتصال بقاعدة البيانات بنجاح!";
+}
+$conn->close(); */
+//الاتصال عن طريق PDO
 try {
     // إنشاء كائن PDO
     $dsn = "mysql:host=$host;dbname=$dbname;charset=utf8mb4"; // DSN
